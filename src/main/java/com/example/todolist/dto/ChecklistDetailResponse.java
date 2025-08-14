@@ -10,9 +10,9 @@ public class ChecklistDetailResponse {
     private String color;
     private OwnerResponse owner;
     
-    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSSSS'Z'")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ssXXX", timezone = "UTC")
     private Instant createdAt;
-    
+
     private List<ChecklistItemResponse> items;
 
     public ChecklistDetailResponse(Long id, String title, String color, OwnerResponse owner, 
