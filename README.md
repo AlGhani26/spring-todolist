@@ -12,7 +12,7 @@ A secure RESTful API for managing todo checklists built with Spring Boot, JWT au
 ## Tech Stack
 - **Backend**: Spring Boot 3.x
 - **Security**: Spring Security + JWT
-- **Database**: PostgreSQL
+- **Database**: MySQL
 - **Build Tool**: Maven
 - **Testing**: JUnit 5
 
