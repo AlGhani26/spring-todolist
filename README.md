@@ -1,6 +1,6 @@
 # Spring TodoList API
 
-A secure RESTful API for managing todo checklists built with Spring Boot, JWT authentication, and PostgreSQL.
+A secure RESTful API for managing todo checklists built with Spring Boot, JWT authentication, and MySQL.
 
 ## Features
 - User authentication & authorization with JWT
