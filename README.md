@@ -56,7 +56,7 @@ This occurs when:
 
 ## Setup Instructions
 1. Clone the repository
-2. Configure PostgreSQL in `application.properties`
+2. Configure MySQL in `application.properties`
 3. Run `mvn clean install`
 4. Start application with `mvn spring-boot:run`
 
