@@ -38,7 +38,6 @@ public class ChecklistController {
                 .orElseThrow(() -> new RuntimeException("User not found"));
     }
 
-
     @PostMapping
     public ResponseEntity<?> create(@Valid @RequestBody ChecklistCreateRequest req){
         User user = getCurrentUser();
